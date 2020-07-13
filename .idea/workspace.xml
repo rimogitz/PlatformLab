@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f53308b0-7521-4a00-8a53-25630489c24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IMDGNode/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMDGNode/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMDGNode/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlatformLab/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PlatformLab/runWordCount.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDGNode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IMDGNode/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/a-tale-of-two-cities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/a-tale-of-two-cities.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/adventures-of-sherlock-holmes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/adventures-of-sherlock-holmes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/anderson-fairy-tales.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/anderson-fairy-tales.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/around-the-world-in-eighty-days.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/around-the-world-in-eighty-days.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/dorian-gray.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/dorian-gray.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/edgar-allan-poe-works-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/edgar-allan-poe-works-1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/frankenstein.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/frankenstein.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/grimm-brothers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/grimm-brothers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/huckleberry-finn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/huckleberry-finn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/land-of-oz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/land-of-oz.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/madame-bovary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/madame-bovary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/odyssey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/odyssey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/peter-pan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/peter-pan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/pride-and-prejudice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/pride-and-prejudice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/relativity-special-and-general-theory.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/relativity-special-and-general-theory.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/shakespeare-complete-works.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/shakespeare-complete-works.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/through-the-looking-glass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/through-the-looking-glass.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/time-machine.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/time-machine.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/tom-sawyer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/tom-sawyer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformLab/resources/books/war-of-the-worlds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformLab/src/main/resources/books/war-of-the-worlds.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
