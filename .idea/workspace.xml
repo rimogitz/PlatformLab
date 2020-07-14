@@ -2,7 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f53308b0-7521-4a00-8a53-25630489c24a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PlatformLab/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDGNode/target/IMDGMember-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDGNode/target/classes/com/rlab/citi/std/hazelcast/IMDGMember/StartMember_Primary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDGNode/target/classes/hazelcast_PRIMARY.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDGNode/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDGNode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMDGNode/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/runWordCountStream.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/PlatformLab-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/a-tale-of-two-cities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/adventures-of-sherlock-holmes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/anderson-fairy-tales.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/around-the-world-in-eighty-days.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/dorian-gray.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/edgar-allan-poe-works-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/frankenstein.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/grimm-brothers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/huckleberry-finn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/land-of-oz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/madame-bovary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/odyssey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/peter-pan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/pride-and-prejudice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/relativity-special-and-general-theory.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/shakespeare-complete-works.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/through-the-looking-glass.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/time-machine.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/tom-sawyer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/books/war-of-the-worlds.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/client/MapEntrySimulator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/client/MapEntrySimulator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/client/MapEntrySimulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/client/TextMessageSimulator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/client/TextMessageSimulator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/client/TextMessageSimulator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/jet/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/jet/WordCountStream$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/jet/WordCountStream$QueueContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/classes/com/hazelcast/training/vt/PlatformLab/jet/WordCountStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PlatformLab/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +80,7 @@
       <recent name="$PROJECT_DIR$/PlatformLab/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.runWordCount.sh">
+  <component name="RunManager" selected="Shell Script.runWordCountStream.sh">
     <configuration name="build.sh (1)" type="ShConfigurationType" temporary="true">
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
       <option name="SCRIPT_PATH" value="$PROJECT_DIR$/PlatformLab/build.sh" />
@@ -55,6 +98,17 @@
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/IMDGNode" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="runWordCountStream.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/PlatformLab/runWordCountStream.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/PlatformLab" />
       <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
       <option name="INTERPRETER_PATH" value="/bin/zsh" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.runWordCountStream.sh" />
         <item itemvalue="Shell Script.runWordCount.sh" />
         <item itemvalue="Shell Script.build.sh (1)" />
         <item itemvalue="Shell Script.run.sh" />

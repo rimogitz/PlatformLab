@@ -1,0 +1,12 @@
+com/hazelcast/training/vt/PlatformLab/jet/WordCountStream.class
+com/hazelcast/training/vt/PlatformLab/client/TextMessageSimulator.class
+com/hazelcast/training/vt/PlatformLab/App.class
+com/hazelcast/training/vt/PlatformLab/jet/WordCountStream$1.class
+com/hazelcast/training/vt/PlatformLab/client/MapEntrySimulator$1.class
+com/hazelcast/training/vt/PlatformLab/client/MapEntrySimulator.class
+com/hazelcast/training/vt/PlatformLab/client/TextMessageSimulator$1.class
+com/hazelcast/training/vt/PlatformLab/client/MapEntrySimulator$2.class
+com/hazelcast/training/vt/PlatformLab/jet/WordCount.class
+com/hazelcast/training/vt/PlatformLab/Utils.class
+com/hazelcast/training/vt/PlatformLab/jet/WordCountStream$QueueContext.class
+com/hazelcast/training/vt/PlatformLab/client/TextMessageSimulator$2.class
