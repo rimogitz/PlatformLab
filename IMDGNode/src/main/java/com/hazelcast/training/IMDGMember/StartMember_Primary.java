@@ -1,4 +1,4 @@
-package com.rlab.citi.std.hazelcast.IMDGMember;
+package com.hazelcast.training.IMDGMember;
 
 import java.io.FileNotFoundException;
 

@@ -47,6 +47,7 @@ import static com.hazelcast.jet.Traversers.traverseArray;
 import static com.hazelcast.jet.aggregate.AggregateOperations.counting;
 import static com.hazelcast.training.vt.PlatformLab.Utils.*;
 import static java.util.Comparator.comparingLong;
+import com.hazelcast.jet.config.JobConfig ;
 
 /**
  * Demonstrates a simple Word Count job in the Pipeline API. Inserts the
@@ -66,18 +67,7 @@ public class WordCountStream {
     	
         Pattern delimiter = Pattern.compile("\\W+");
         Pipeline p = Pipeline.create();
-        
-         /*    StreamSource<String> queueSource =
-                SourceBuilder.stream("LabSourceQueue",
-                        context -> context.jetInstance().getHazelcastInstance().<String>getQueue("LabSourceQueue"))
-                             .<String>fillBufferFn((queue, buf) -> buf.add(queue.take()))
-                             .build();  */
-        
-      /*StreamSource<String> queueSource =
-                SourceBuilder.stream("LabSourceQueue",
-                        context -> remoteHazelcastInstance(clientConfigForExternalHazelcast()).<String>getQueue("LabSourceQueue"))
-                             .<String>fillBufferFn((queue, buf) -> buf.add(queue.take()))
-                             .build();*/
+
         
         StreamSource<String> queueSource =
                 SourceBuilder.stream("LabSourceQueue", context ->
@@ -93,8 +83,8 @@ public class WordCountStream {
          .window(WindowDefinition.sliding(1_000, 1_000))
        // .window(WindowDefinition.tumbling(15_000))
         .aggregate(counting())
-        // .writeTo(Sinks.map(COUNTS));
-        .writeTo(Sinks.remoteMap(COUNTS, clientConfigForExternalHazelcast()));
+        // .writeTo(Sinks.map(COUNTS));  // Shows usage for a local map
+        .writeTo(Sinks.remoteMap(COUNTS, clientConfigForExternalHazelcast())); // remote Map
         
         return p;
     }
@@ -114,7 +104,9 @@ public class WordCountStream {
             Pipeline p = buildPipeline();
             Map<String, Long> results = remoteHazelcastInstance(clientConfigForExternalHazelcast()).getMap(COUNTS);
             // checkResults(results);
-            jet.newJob(p);
+            JobConfig jobConfig = new JobConfig();
+            jobConfig.setName("wordCountStream");
+            jet.newJob(p, jobConfig);
             System.out.println("done in " + TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - start) + " milliseconds.");
            // Map<String, Long> results = jet.getMap(COUNTS);
            
