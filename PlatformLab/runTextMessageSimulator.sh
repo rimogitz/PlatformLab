@@ -1,0 +1,1 @@
+mvn exec:java -D"exec.mainClass"="com.hazelcast.training.vt.PlatformLab.client.TextMessageSimulator"

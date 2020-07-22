@@ -4,7 +4,19 @@
 `build.sh`
 
 
-# To run:
+# Streaming Demo
+
+`runTextMessageSimulator.sh` 
+
+You can enter any words at the prompt.
+
+In another terminal window :
+`runWordCountStream.sh`
+
+You should see the words counted on the screen now.
+
+
+# To run wordcount:
 
 `runWordCount.sh`
 
