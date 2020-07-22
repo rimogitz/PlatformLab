@@ -39,6 +39,7 @@ import static com.hazelcast.jet.Traversers.traverseArray;
 import static com.hazelcast.jet.aggregate.AggregateOperations.counting;
 import static com.hazelcast.training.vt.PlatformLab.Utils.*;
 import static java.util.Comparator.comparingLong;
+import com.hazelcast.jet.config.JobConfig ;
 
 /**
  * Demonstrates a simple Word Count job in the Pipeline API. Inserts the
@@ -81,7 +82,9 @@ public class WordCount {
             System.out.println("\nCounting words... ");
             long start = System.nanoTime();
             Pipeline p = buildPipeline();
-            jet.newJob(p).join();
+            JobConfig jobConfig = new JobConfig();
+            jobConfig.setName("WordCount");
+            jet.newJob(p, jobConfig).join();
             System.out.println("done in " + TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - start) + " milliseconds.");
            // Map<String, Long> results = jet.getMap(COUNTS);
             Map<String, Long> results = remoteHazelcastInstance(clientConfigForExternalHazelcast()).getMap(COUNTS);

@@ -105,7 +105,7 @@ public class WordCountStream {
             Map<String, Long> results = remoteHazelcastInstance(clientConfigForExternalHazelcast()).getMap(COUNTS);
             // checkResults(results);
             JobConfig jobConfig = new JobConfig();
-            jobConfig.setName("wordCountStream");
+            jobConfig.setName("WordCountStream");
             jet.newJob(p, jobConfig);
             System.out.println("done in " + TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - start) + " milliseconds.");
            // Map<String, Long> results = jet.getMap(COUNTS);
