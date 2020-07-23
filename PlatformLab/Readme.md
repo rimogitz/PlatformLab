@@ -3,6 +3,13 @@
 
 `build.sh`
 
+# Populate Map
+
+`runMapEntrySimulator.sh`
+
+It should populate a LabSourceMap in your IMDG cluster.
+
+You can launch management center and view the map data.
 
 # Streaming Demo
 

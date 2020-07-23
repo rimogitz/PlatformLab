@@ -1,1 +1,1 @@
-mvn exec:java -D"exec.mainClass"="com.rlab.citi.std.hazelcast.IMDGMember.StartMember_Primary"
+mvn exec:java -D"exec.mainClass"="com.hazelcast.training.IMDGMember.StartMember_Primary"
